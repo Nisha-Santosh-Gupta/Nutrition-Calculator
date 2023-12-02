@@ -1,13 +1,13 @@
 {
     "builds": [{
-        "src": "Nutrition-Calculator/wsgi.py",
+        "src": "Diet_planner/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     }],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "Nutrition-Calculator/wsgi.py"
+            "dest": "Diet_planner/wsgi.py"
         }
     ]
 }

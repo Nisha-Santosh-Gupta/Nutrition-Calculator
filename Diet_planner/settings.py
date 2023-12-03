@@ -30,9 +30,7 @@ SECRET_KEY = 'django-insecure-u-i5#hm67a&3q^1r3+#6h40m$n11d((hlx2hnvj7y+*win$$kt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [".vercel.com",
-                ".api-ninjas.com",
-                ]
+ALLOWED_HOSTS = []
 
 
 # Application definition
